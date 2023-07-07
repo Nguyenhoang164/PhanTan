@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+
+<BorderPane xmlns="http://javafx.com/javafx/16" prefHeight="500" prefWidth="700" xmlns:fx="http://javafx.com/fxml/1">
+  <top>
+    <VBox alignment="CENTER">
+      <Label text="label1" ></Label>
+      <Label text="label2"></Label>
+      <CheckBox text="Option 1" fx:id="checkBox1" />
+      <CheckBox text="Option 2" fx:id="checkBox2" />
+      <CheckBox text="Option 3" fx:id="checkBox3" />
+    </VBox>
+  </top>
+  <left>
+    <VBox alignment="CENTER">
+      <RadioButton text="Option 1" fx:id="radioButton1" />
+      <RadioButton text="Option 2" fx:id="radioButton2" />
+      <RadioButton text="Option 3" fx:id="radioButton3" />
+    </VBox>
+  </left>
+  <right>
+    <Button text="right button" />
+  </right>
+  <center>
+    <HBox alignment="CENTER">
+      <Button text="Button 1"/>
+      <Button text="Button 2"/>
+      <Button text="Button 3"/>
+    </HBox>
+  </center>
+  <bottom>
+    <Button text="Bottom Button"/>
+  </bottom>
+</BorderPane>

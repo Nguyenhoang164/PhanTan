@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="tinhtuoi" />
+        <module name="MoneyTrans" />
+        <module name="JaVaFx" />
+        <module name="computer" />
+        <module name="SignIn" />
+        <module name="RandomNumber" />
+        <module name="demo" />
+        <module name="BMI" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="JavaFx" target="20" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
